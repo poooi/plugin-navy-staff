@@ -1,5 +1,3 @@
-import React from 'react'
-
-export const reactClass = () => <div>Hello World</div>
+export { PluginNavyStaff as reactClass } from './views'
 
 export const windowMode = true

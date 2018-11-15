@@ -9,5 +9,8 @@
       "ban-keywords",
       "allow-pascal-case"
     ]
+  },
+  "linterOptions": {
+    "exclude": ["types/**/*.ts"]
   }
 }
