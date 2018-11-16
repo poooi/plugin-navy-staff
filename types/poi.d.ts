@@ -22,4 +22,10 @@ declare module 'views/utils/selectors' {
   export const shipsSelector: Selector<any, { [key: number]: APIShip }>
   export const shipDataSelectorFactory: (shipId: number) => Selector<any, [APIShip, APIMstShip]>
   export const fcdSelector: Selector<any, any>
+  export const extensionSelectorFactory: <S>(key: string) => Selector<any, S>
 }
+
+interface Window {
+  APPDATA_PATH: string
+}
+declare const APPDATA_PATH: string
