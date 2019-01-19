@@ -59,6 +59,3 @@ typings/
 
 # next.js build output
 .next
-
-# ignore .js geenerated in watch mode
-*.js
